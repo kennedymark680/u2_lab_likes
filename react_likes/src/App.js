@@ -1,5 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'
+import './App.css'
+import Likes from './components/Likes'
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <Likes />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
